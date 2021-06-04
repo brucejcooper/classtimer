@@ -244,7 +244,7 @@ const schedule: Schedule = {
         warningTime: 6,
       },
     ],
-    // Saturday
+    // Saturday 
     [],
 
     // Sunday
