@@ -1,0 +1,102 @@
+header {
+  background: #ccc;
+}
+
+header h1 {
+  font-size: 5vw;
+  margin: 0.33em;
+}
+
+.padded {
+  padding: 0.5em;
+}
+
+.clockface {
+  stroke-width: 1;
+  stroke: #0047ab;
+  fill: #faebd7;
+}
+
+.centerpin {
+  fill: crimson;
+
+}
+
+.tick {
+  stroke: #0047ab;
+  stroke-width: 0.5;
+}
+
+.hand {
+  stroke: black;
+  stroke-width: 0.8;
+}
+
+.secondhand {
+  stroke: crimson;
+  stroke-width: 0.2;
+}
+
+.periodtime {
+  fill: rgba(0,255,0, 0.25);
+  stroke-width: 0.2;
+}
+
+.cleanuptime {
+  fill: rgba(255, 0, 0, 0.25);
+  stroke-width: 0.2;
+}
+
+.centered {
+  text-align: center;
+}
+
+.minutesLeft {
+  font-size: 10vw;
+}
+
+.cleanupWarning {
+  color: crimson;
+}
+
+.mainbody {
+  flex: 1 1;
+  display: flex;
+}
+
+
+.App {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.clock {
+  width: 60%;
+  position: relative;
+}
+
+.clock svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.currentSchedule {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 4vw;
+
+}
